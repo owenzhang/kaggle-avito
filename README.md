@@ -16,7 +16,7 @@ avito_visit.R -- feature extration from visit dataset
 avito_cat_cat.R -- more features + data merge
 avito_data_merge.R -- rest of the features + data merge
 avito_train_xgb.R -- fit xgboost models
-avito_utils.R -- some utility functions
+avito_utils.R -- some utility functions 
 
 Hardware requirement:
 To run the full data solution (_full_100pct_run.R) I recomment a machine with 256GB of ram + (at least) 200GB of swap space. This is due to the combination of my own inefficient code and inefficiency in R's memory handling. 
