@@ -25,10 +25,12 @@ source('kaggle-avito/avito_data_merge.R')
 
 n_repeat <- 8
 feature_list <- c(feature_list1, feature_list2)
+rseed_offset <- 300
 source('kaggle-avito/avito_train_xgb.R')
 predv_list2 <- predv / ctr
 
 feature_list <- feature_list1
+rseed_offset <- 200
 source('kaggle-avito/avito_train_xgb.R')
 predv_list1 <- predv / ctr
 
